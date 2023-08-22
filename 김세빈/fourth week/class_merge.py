@@ -2,7 +2,8 @@ class StringUtilFunc:
     def __init__(self):
         pass
 
-    def alphabet_frequency(self, string_util):
+    @staticmethod
+    def alphabet_frequency(string_util):
         """
         문자열을 입력받아 각 알파벳 문자의 빈도를 사전 형태로 반환
         :return:
